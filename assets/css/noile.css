@@ -8931,8 +8931,8 @@ padding: 50px 0px 100px 0px;
   right: 0px;
 }
 .footer-one__logo-box img {
-    width: 350px;
-    height: 85px;
+    width: 300px;
+    height: 75px;
 }
 .stricky-header-one .main-menu-one__logo img[alt="logo-dark"] {
        width: 145px ;
@@ -13397,7 +13397,7 @@ height:40px;
 .footer-one__about-text {
   margin-top: 22px;
   margin-bottom: 42px;
-  padding-right: 40px;
+  /* padding-right: 40px; */
 }
 @media (max-width: 1599px) {
   .footer-one__about-text {
