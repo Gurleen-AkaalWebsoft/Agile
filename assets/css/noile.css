@@ -419,7 +419,7 @@ p {
   opacity: 1;
 }
 section{
-  padding: 100px 0px !important;
+  padding: 80px 0px !important;
 }
 a,
 button,
@@ -1263,10 +1263,13 @@ i {
     padding: 49px 30px 30px;
   }
 }
-@media (max-width: 435px) {
+@media (max-width: 475px) {
   .pricing__item {
     padding: 49px 20px 20px;
   }
+  .service-details-page__consulting svg {
+        width:400px;
+    }
 }
 .pricing__item::before {
   content: "";
@@ -6434,6 +6437,7 @@ path , circle {
 @media (max-width: 425px) {
   .service-details-page__consulting {
     flex-direction: column;
+    text-align: center;
   }
 }
 .service-details-page__consulting-img {
@@ -8861,12 +8865,12 @@ padding: 50px 0px 100px 0px;
     padding: 0;
     margin: 0;
   }
-  .main-menu-one__logo img, .header__logo img {
+  .main-menu-one__logo img, .header__logo img , .stricky-header-one .main-menu-one__logo img[alt="logo-dark"]{
     width: 100px;
     height: 55px;
 }
 .stricky-header{
-  padding: 10px;
+  padding: 0px;
 }
 }
 .solution-one__service-icon::after {
@@ -9152,6 +9156,9 @@ padding: 50px 0px 100px 0px;
 @media (max-width: 515px) {
   .solution-one__shape-seven {
     display: none;
+  }
+  .service-details-page__consulting svg{
+    width: 380px;
   }
 }
 
@@ -9442,6 +9449,11 @@ padding: 50px 0px 100px 0px;
  section{
   padding: 60px 0px !important;
 }
+
+.service-details-page__consulting {
+    flex-direction: column;
+    text-align: center;
+  }
   .solution-one__main-tab-box .tab-buttons .tab-btn span {
     padding-left: 7px ;
     padding-right: 7px ;
@@ -9538,7 +9550,12 @@ padding: 50px 0px 100px 0px;
     padding-top: 146px;
     padding-bottom: 243px;
   }
+  
 }
+@media (max-width: 378px) {
+ .service-details-page__consulting svg {
+        width: 360px;
+    }}
 @media (max-width: 1199px) {
   .solution-three {
     padding-top: 116px;
@@ -9555,6 +9572,9 @@ padding: 50px 0px 100px 0px;
     padding-top: 77px;
     padding-bottom: 204px;
   }
+  /* .service-details-page__consulting svg{
+    width: 360px;
+  } */
 }
 .solution-three__img-wrap {
   position: relative;
