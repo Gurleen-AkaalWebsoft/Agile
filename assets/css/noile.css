@@ -419,7 +419,7 @@ p {
   opacity: 1;
 }
 section{
-  padding: 80px 0px !important;
+  padding: 100px 0px !important;
 }
 a,
 button,
@@ -8931,7 +8931,7 @@ padding: 50px 0px 100px 0px;
     height: 85px;
 }
 .stricky-header-one .main-menu-one__logo img[alt="logo-dark"] {
-       width: 155px ;
+       width: 145px ;
     height: 102px;
 }
 @media (max-width: 767px) {
@@ -9439,7 +9439,9 @@ padding: 50px 0px 100px 0px;
 }
 
 @media (max-width: 768px) {
- 
+ section{
+  padding: 60px 0px !important;
+}
   .solution-one__main-tab-box .tab-buttons .tab-btn span {
     padding-left: 7px ;
     padding-right: 7px ;
