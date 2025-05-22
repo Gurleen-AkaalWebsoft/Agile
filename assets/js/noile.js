@@ -239,11 +239,11 @@
     let mobileNavContainer = document.querySelector(".mobile-nav__container");
     mobileNavContainer.innerHTML = navContent;
   }
-  if ($(".sticky-header__content").length) {
-    let navContent = document.querySelector(".main-menu").innerHTML;
-    let mobileNavContainer = document.querySelector(".sticky-header__content");
-    mobileNavContainer.innerHTML = navContent;
-  }
+    if ($(".sticky-header__content").length) {
+      let navContent = document.querySelector(".main-menu").innerHTML;
+      let mobileNavContainer = document.querySelector(".sticky-header__content");
+      mobileNavContainer.innerHTML = navContent;
+    }
 
   if ($(".mobile-nav__container .main-menu__list").length) {
     let dropdownAnchor = $(
