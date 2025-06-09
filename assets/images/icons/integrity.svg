@@ -1,0 +1,36 @@
+<svg width="96" height="98" viewBox="0 0 96 98" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M57.5 0.5V8" stroke="black"/>
+<path d="M79.5 6.5L75.5 13" stroke="black"/>
+<path d="M95.5 22L88.5 26.5" stroke="black"/>
+<path d="M34.5 13.5V26.5M34.5 26.5L37 25.5L38.5 22H44.5L45.5 25.5L51.5 28.5L55.5 26.5L59.5 30.5L58 34.5L59.5 39.5L63.5 41V46.5L59.5 48.5L58 53.5L59.5 58.5L55.5 62L51.5 60L45.5 62L44.5 67H38.5L37 62H34.5M34.5 26.5L32 28.5L28 26.5L26 28.5M34.5 62V74M34.5 62L32 60L28 62L24 58.5L26 54.5L24 49.5L19.5 47.5V41L24 39.5L26 34.5L24 30.5L26 28.5M9 18.5H16.5L26 28.5" stroke="black"/>
+<path d="M9 44.5H19.5" stroke="black"/>
+<path d="M9 70H16.875L27 61" stroke="black"/>
+<path d="M47.5 17.5C52.1667 14.6667 64 11.3 74 20.5C84 29.7 84 41 80.5 48C78.5 52 72.3 61.5 71.5 71.5C70.7 81.5 71.1667 76.3333 71.5 72.5H43.5V77.5C43.6667 78.8333 44.7 81.4 47.5 81C50.3 80.6 61.6667 80.8333 67.5 81C68.2252 81.1667 70.7405 80.8 71 78" stroke="black"/>
+<path d="M47 81V86.2949C47 87.3538 49.0257 89.3659 57.1285 88.9423H65.7377C66.5818 88.7658 68.3712 87.9892 68.7763 86.2949C69.1814 84.6005 68.9451 82.059 68.7763 81H67.7634" stroke="black"/>
+<path d="M51.5 89V93.5C51.1667 94.3333 51.5 96.5 56 96.5H61.5C62.6667 96.6667 65 96.3 65 93.5V89" stroke="black"/>
+<circle cx="5.5" cy="70.5" r="3.5" stroke="black"/>
+<circle cx="42" cy="45" r="10" stroke="black"/>
+<circle cx="34.5" cy="9.5" r="3.5" stroke="black"/>
+<circle cx="34.5" cy="78.5" r="3.5" stroke="black"/>
+<path d="M9 19.5C9 21.433 7.433 23 5.5 23C3.567 23 2 21.433 2 19.5C2 17.567 3.567 16 5.5 16C7.433 16 9 17.567 9 19.5Z" stroke="black"/>
+<circle cx="4.5" cy="44.5" r="3.5" stroke="black"/>
+
+<style>
+   path {
+    
+    fill: none;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: dash 3s ease-in-out alternate infinite;
+    transition: stroke-dashoffset 0.5s ease-in-out;
+  }
+    
+  @keyframes dash {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  
+</style>
+
+</svg>

@@ -654,4 +654,27 @@
       }
     }
   });
+  document.addEventListener("DOMContentLoaded", function () {
+    const currentPage = window.location.pathname.split("/").pop();
+
+    const links = document.querySelectorAll(`.main-menu__list a[href="${currentPage}"]`);
+
+    links.forEach(link => {
+      // Mark current item
+      const currentLi = link.closest("li");
+      if (currentLi) currentLi.classList.add("current");
+
+      // Traverse up the DOM: go from li > ul > li.dropdown (parent)
+      let parentUl = currentLi?.parentElement;
+      while (parentUl && parentUl.classList.contains('main-menu__list') === false) {
+        const parentLi = parentUl.closest('li.dropdown');
+        if (parentLi) {
+          parentLi.classList.add("current");
+          parentUl = parentLi.parentElement; // Move up to check next parent
+        } else {
+          break;
+        }
+      }
+    });
+  });
 })(jQuery);

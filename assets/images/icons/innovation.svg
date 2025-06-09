@@ -1,0 +1,30 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M50.3242 5.10526C75.1458 5.10526 95.2793 25.4938 95.2793 50.658C95.2793 75.8222 75.1458 96.2107 50.3242 96.2107C25.5029 96.2105 5.37019 75.822 5.37013 50.658C5.37013 25.4939 25.5029 5.1055 50.3242 5.10526Z" stroke="black"/>
+<path d="M75.6493 41.4474L48.7013 33.8816L24.026 41.4474L30.8442 44.079M75.6493 41.4474V54.6053M75.6493 41.4474L68.5065 44.079M75.6493 54.6053L79.5455 57.2369V67.7632L75.6493 65.4605L73.0519 67.7632V57.2369L75.6493 54.6053ZM68.5065 44.079V58.5526C62.4459 61.2939 46.4286 65.1316 30.8442 58.5526V44.079M68.5065 44.079L48.7013 48.6842L30.8442 44.079" stroke="black"/>
+<path d="M50 84.8684V100" stroke="black"/>
+<path d="M67.5325 70.7237L76.2987 79.2763" stroke="black"/>
+<path d="M32.1429 70.0658L24.3506 78.9474" stroke="black"/>
+<path d="M0 50.6579H16.5584" stroke="black"/>
+<path d="M83.4416 50.6579H100" stroke="black"/>
+<path d="M50 16.7763C50.2597 16.25 50.1082 5.37281 50 0" stroke="black"/>
+<path d="M22.7273 23.0263L31.4935 30.921" stroke="black"/>
+<path d="M77.9221 22.3684L69.4805 30.921" stroke="black"/>
+
+<style>
+   path {
+    
+    fill: none;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: dash 3s ease-in-out alternate infinite;
+    transition: stroke-dashoffset 0.5s ease-in-out;
+  }
+    
+  @keyframes dash {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  
+</style>
+</svg>

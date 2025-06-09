@@ -1,0 +1,40 @@
+<svg width="98" height="70" viewBox="0 0 98 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M24 67H50.5" stroke="black"/>
+<path d="M6.5 58H24.5" stroke="black"/>
+<path d="M16.5 47.5H24.5" stroke="black"/>
+<path d="M2.5 41H17.5" stroke="black"/>
+<path d="M0 30H17" stroke="black"/>
+<path d="M15.5 22.5H23" stroke="black"/>
+<path d="M7.5 13.5H24.5" stroke="black"/>
+<path d="M22 3.5H49" stroke="black"/>
+<path d="M63.5 12.5V16.5" stroke="black"/>
+<path d="M79.5 19.5L75.5 22" stroke="black"/>
+<path d="M86.5 35H80.5" stroke="black"/>
+<path d="M80 50.5L75.5 47.5" stroke="black"/>
+<path d="M63.5 58.5V54" stroke="black"/>
+<path d="M47.5 52L51 48" stroke="black"/>
+<path d="M45 35.5H41" stroke="black"/>
+<path d="M51 23.5L47.5 19.5" stroke="black"/>
+<path d="M63.5 22V35H70.5" stroke="black"/>
+<circle cx="63.5" cy="35.5" r="27" stroke="black"/>
+<circle cx="63" cy="35" r="34.5" stroke="black"/>
+
+
+<style>
+   path,circle {
+    
+    fill: none;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: dash 3s ease-in-out alternate infinite;
+    transition: stroke-dashoffset 0.5s ease-in-out;
+  }
+    
+  @keyframes dash {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  
+</style>
+</svg>

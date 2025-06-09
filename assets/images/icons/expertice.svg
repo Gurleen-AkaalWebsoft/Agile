@@ -1,0 +1,32 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M24.3853 95.082H38.3197V77.459H46.7213M46.7213 77.459V100M46.7213 77.459H54.5082M54.5082 77.459V90.9836M54.5082 77.459H63.5246V93.6475H77.2541" stroke="black"/>
+<path d="M64.5492 77.459H69.2623V23.7705H31.7623V77.459H38.1148" stroke="black"/>
+<path d="M5.94262 76.6393V62.7049H22.541M22.541 62.7049V55.3279M22.541 62.7049C22.541 75.1639 28.2787 77.8688 31.1475 77.6639H69.2623C74.1803 77.6639 76.0929 73.9754 76.4344 72.1311V28.0738C75.7787 24.3033 71.3798 23.4973 69.2623 23.5656H31.1475C23.9344 23.5656 22.4044 28.2104 22.541 30.5328V38.7295M22.541 55.3279H10.2459M22.541 55.3279V47.1311M22.541 47.1311H0M22.541 47.1311V38.7295M22.541 38.7295H5.94262V23.5656" stroke="black"/>
+<path d="M22.9508 5.94263H37.5V22.7459" stroke="black"/>
+<path d="M45.2869 9.63113V22.7459" stroke="black"/>
+<path d="M52.8688 0V22.1311" stroke="black"/>
+<path d="M76.4344 5.7377H61.6803V22.9508" stroke="black"/>
+<path d="M95.2869 22.7459V38.1148H77.0492" stroke="black"/>
+<path d="M77.2541 45.6967H90.9836" stroke="black"/>
+<path d="M100 53.2787H76.8443V62.0902H94.2623V75" stroke="black"/>
+<path d="M56.3525 32.7869L52.459 45.6967H60.041L46.1066 67.2131V52.2541H40.9836L46.1066 32.7869H56.3525Z" stroke="black"/>
+
+<style>
+   path {
+    
+    fill: none;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: dash 3s ease-in-out alternate infinite;
+    transition: stroke-dashoffset 0.5s ease-in-out;
+  }
+    
+  @keyframes dash {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  
+</style>
+
+</svg>
